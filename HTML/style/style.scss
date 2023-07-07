@@ -29,6 +29,27 @@ h1,
     text-align: center;
 }
 
+div.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+div{
+    width: 850px;
+    &.box1{
+        background: rgb(245,16,0)
+    }
+    &.box2{
+        background: rgb(192, 245, 0)
+    }
+    &.box3{
+        background: rgb(8, 0, 245)
+    }
+}
+
+
+
 /* h2{ */
     /* color: blueviolet;
 } */
